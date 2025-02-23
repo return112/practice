@@ -1,0 +1,10 @@
+.section-model{
+    width: 1000px;
+    color: black;
+    background-color: lightskyblue ;
+    border: 10px solid blue;
+    
+    /* padding: 50px;
+    padding: 100px 150px; */
+    padding: 100px 150px 50px 200px;
+}

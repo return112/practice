@@ -1,0 +1,27 @@
+div{
+    display: grid;
+    place-items: center;
+
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 54px;
+    font-weight: 800;
+   
+    text-align: right;
+    text-decoration:underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 10px;
+    text-decoration-style: solid;
+    text-shadow:-2 x 0 red;
+}
+p{
+   letter-spacing: 1px;
+   word-spacing: 2px;
+   
+}
+p::first-letter{
+    text-transform: uppercase;
+    font-size: 48px;
+    
+}

@@ -1,0 +1,12 @@
+div{
+    display: grid;
+    place-items: center;
+
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 54px;
+    font-weight: 800;
+    font-style:italic;
+    font-variant: small-caps;
+}
