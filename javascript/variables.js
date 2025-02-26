@@ -1,6 +1,6 @@
 // console.log("welcone to js")
 // console.log("hello world")/
-  
+
 
 // string datatypes
 // var my_firstname=("shubham")
@@ -20,7 +20,15 @@
 // var myString = ("55");
 // var myNumber = parseInt(myString)
 // console.log(myNumber)
- 
-var myString = ("55.6");
-var myNumber = parseFloat(myString)
- console.log(myNumber)
+
+// var myString = ("55.6");
+// var myNumber = parseFloat(myString)
+//  console.log(myNumber)
+
+if (NaN = NaN) {
+    console.log("both are equal")
+}
+
+else {
+    console.log("not equal")
+}

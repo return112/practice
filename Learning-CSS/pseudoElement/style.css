@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+div{
+    margin: 40px;
+    padding: 50px;
+}
+.content-1{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    
+}
+.content-1::before{
+    content: "this is paragraph";
+    color: brown;
+    font-size: 50px;
+}
+.content-1::after{
+    content: "this is after";
+    color: brown;
+    font-size: 50px;
+}
