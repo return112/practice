@@ -235,21 +235,33 @@
 // }
 // console.log(sum);
 
-var num = 2;
-var isPrime = true;
+// var num = 2;
+// var isPrime = true;
 
-for (let i = 2; i < num; i++) {
-    if (num % i == 0) {
-        isPrime = false;
-        break;
+// for (let i = 2; i < num; i++) {
+//     if (num % i == 0) {
+//         isPrime = false;
+//         break;
+//     }
+
+// }
+// if (isPrime) {
+//     console.log("num is prime");
+
+// }
+// else {
+//     console.log("num is not prime");
+
+// }
+
+// pattren
+
+for (var i = 1; i <= 5; i++) {
+    var pattren = "";
+
+    for (var j = 1; j <= i; j++) {
+        pattren = pattren + " * ";
     }
-
-}
-if (isPrime) {
-    console.log("num is prime");
-
-}
-else {
-    console.log("num is not prime");
+    console.log(pattren);
 
 }
