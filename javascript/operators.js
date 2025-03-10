@@ -256,12 +256,38 @@
 
 // pattren
 
-for (var i = 1; i <= 5; i++) {
-    var pattren = "";
+// for (var i = 1; i <= 5; i++) {
+//     var pattren = "";
 
-    for (var j = 1; j <= i; j++) {
-        pattren = pattren + " * ";
-    }
-    console.log(pattren);
+//     for (var j = 1; j <= i; j++) {
+//         pattren = pattren + " * ";
+//     }
+//     console.log(pattren);
 
+// }
+
+// let data = 7
+// while(data>=0){
+//     if (data<=5){
+//         data--;
+//         continue;
+//     }
+//     console.log(data);
+//     data--;
+// }
+
+// let i = 5;
+// while (true) {
+//     console.log(i);
+//     i += 5;
+//     if (i > 30) {
+//         break;
+//     }
+// }
+
+let sum = 0;
+const n = 100;
+for (let i = 1; i <= n; i++) {
+    sum += i;
 }
+console.log("sum : ",sum);
