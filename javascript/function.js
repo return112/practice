@@ -7,9 +7,16 @@
 
 // practice
 
-function greet (name){
-    console.log("Hello " + name + "", ", welcone to my kingdom");
+// function greet (name){
+//     console.log("Hello " + name + "", ", welcone to my kingdom");
+    
+// }
+// greet("shubham")
+// greet("paul")
+
+function sum (a,b){
+    console.log(a+b);
     
 }
-greet("shubham")
-greet("paul")
+sum(5,8)
+sum(10,55)
