@@ -88,35 +88,61 @@
 
 // practice question
 
-function calculator(a, b, operator) {
-    let result;
-    switch (operator) {
+// function calculator(a, b, operator) {
+//     let result;
+//     switch (operator) {
 
-        case '+':
-            result = a + b;
-            return result;
+//         case '+':
+//             result = a + b;
+//             return result;
 
-        case '-':
-            result = a - b;
-            return result;
-        case '%':
-            result = a % b;
-            return result;
-        case '/':
-            result = a / b;
-            return result;
+//         case '-':
+//             result = a - b;
+//             return result;
+//         case '%':
+//             result = a % b;
+//             return result;
+//         case '/':
+//             result = a / b;
+//             return result;
 
 
-        default:
-            return 'No operator found';
+//         default:
+//             return 'No operator found';
 
+//     }
+// }
+// console.log(calculator(5, 3, '+'));
+// console.log(calculator(5, 3, '-'));
+// console.log(calculator(5, 3, '%'));
+// console.log(calculator(5, 3, '/'));
+
+
+// reverse function
+
+// const isReverse = (str) => {
+//     let reverse ="";
+//     for (i = str.length - 1; i >= 0; i--) {
+//       reverse = reverse + str[i];
+//     }
+//     return reverse;
+// }
+// console.log(isReverse("Shubham"));
+
+// palindrome 
+
+const isReverse = (str) => {
+    let reverse = "";
+    for (i = str.length - 1; i >= 0; i--) {
+        reverse = reverse + str[i];
+    }
+    if (str === reverse) {
+        return true;
+    }
+    else {
+        return false;
     }
 }
-console.log(calculator(5, 3, '+'));
-console.log(calculator(5, 3, '-'));
-console.log(calculator(5, 3, '%'));
-console.log(calculator(5, 3, '/'));
-
-
+console.log(isReverse("level"));
 
 
