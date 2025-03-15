@@ -134,8 +134,13 @@
 
 // .splice() method 
 
-let fruits = ["apple", "banana", "mango", "grapes"]
+// let fruits = ["apple", "banana", "mango", "grapes"]
 
-fruits.splice(1,1,"guava")  //.splice() used to add element in array
+// fruits.splice(1,1,"guava")  //.splice() used to add element in array
+// console.log(fruits);
+
+
+let fruits = ["apple", "banana", "mango", "grapes",]
+
+fruits.splice(1,0,"guava","orange")  //.splice() used to add element in array
 console.log(fruits);
-
