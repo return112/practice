@@ -123,10 +123,19 @@
 
 
 // used both .unshift() and .shift() method
+// let fruits = ["apple", "banana", "mango", "grapes"]
+
+// console.log(fruits.unshift("guava"))  //used to aad element in begining of array
+// console.log(fruits);
+
+// console.log(fruits.shift())  //used to removes element in begining of array
+// console.log(fruits);
+
+
+// .splice() method 
+
 let fruits = ["apple", "banana", "mango", "grapes"]
 
-console.log(fruits.unshift("guava"))  //used to aad element in begining of array
+fruits.splice(1,1,"guava")  //.splice() used to add element in array
 console.log(fruits);
 
-console.log(fruits.shift())  //used to removes element in begining of array
-console.log(fruits);
